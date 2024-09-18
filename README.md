@@ -14,3 +14,5 @@ _Advance:_
 2. Correcting typos - Not easy to implement.
 
 **Feature Extraction:**
+1. Corpus: A corpus is a collection of texts that represent a language
+2. Bag of Words(BOW): Unique count of words in corpus
