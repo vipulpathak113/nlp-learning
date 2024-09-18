@@ -20,4 +20,5 @@ _Advance:_
       - Will have 0 for words that does not exist in other documents
       - Frequency of a text can be more that can be resolve by normalization(Occurence/total_no_of_words)
       - Common words can have more cout than other and can supress the actual meaning of text so to solve this use TF-IDF.
-4. TF-IDF(Term Frequency-Inverse Document Frequency): It quantify the importance of a term in a document with respect to its frequency in the document and its rarity across multiple documents.       
+4. TF-IDF(Term Frequency-Inverse Document Frequency): It quantify the importance of a term in a document with respect to its frequency in the document and its rarity across multiple documents. **TF-IDF(t,d,D)=TF(t,d)×IDF(t,D)**
+   
