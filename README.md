@@ -22,5 +22,9 @@ _Advance:_
       - Common words can have more cout than other and can supress the actual meaning of text so to solve this use TF-IDF.
 4. TF-IDF(Term Frequency-Inverse Document Frequency): It quantify the importance of a term in a document with respect to its frequency in the document and its rarity across multiple documents. **TF-IDF(t,d,D)=TF(t,d)×IDF(t,D)**
 
-**Word Embeddings:** Word Embeddings are the texts converted into numbers and there may be different numerical representations of the same text.
+**Word Embeddings:** Word embeddings are a way to represent words as vectors of numbers, where words with similar meanings are represented by similar vectors.
+The basic vector embedding is **One Hot Encoding** where 1 stands for the position where the word exists and 0 everywhere else. 
+_Ex: ["My ,"Name" ,"is", "Vipul". here vector embeedding for "Vipul" will be [0,0,0,1]_ 
+
+**Note:** Problem with this approach is that for large number of documents it will have more 0's so it will be diffcult to process and get the meaning out of it)    
    
