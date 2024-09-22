@@ -27,4 +27,8 @@ The basic vector embedding is **One Hot Encoding** where 1 stands for the positi
 _Ex: ["My ,"Name" ,"is", "Vipul". here vector embeedding for "Vipul" will be [0,0,0,1]_ 
 
 **Note:** Problem with this approach is that for large number of documents it will have more 0's so it will be diffcult to process and get the meaning out of it)    
+
+Different Type of Word Embeddings:
+   - Frequency-based Embedding (Count Vector,TF-IDF,Co-Occurrence)
+   - Prediction-based Embedding (CBOW (Continuous Bag of words),Skip – Gram)
    
