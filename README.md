@@ -37,3 +37,25 @@ Different Type of Word Embeddings:
 
 - Frequency-based Embedding (Count Vector,TF-IDF,Co-Occurrence)
 - Prediction-based Embedding (CBOW (Continuous Bag of words),Skip – Gram)
+
+
+## NLP Pipeline
+
+NLP Pipeline is set of steps to build an end to end NLP Software.
+
+NLP software consists of following steps:
+   - Data Acquisition
+   - Text Preperation
+      - Text Cleanup
+      - Basic Preprocessing
+      - Advance Preprocessing
+   - Feature Engineering
+   - Modelling
+      - Model Building
+      - Model Evaluation
+   - Deployment
+      - Deployment
+      - Monitoring
+      - Model Update   
+
+
