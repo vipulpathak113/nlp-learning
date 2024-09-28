@@ -10,7 +10,7 @@ _Basic:_
 4. Removing nonsocial word like new line
 5. Tokenization of the text (Can be character based, sentence word)Tokenization means dividing text into smaller parts.
 6. Lemmatization and Stemming but it's completely depends on use case. Stemming is like stem or root of the word
-   Stemming merely removes common suffixes from the end of word tokens, lemmatization ensures the output word is an existing normalized form of the word (for example, lemma) that can be found in the dictionary
+   Stemming merely removes common suffixes from the end of word tokens, lemmatization ensures the output word is an existing normalized form of the word (for example, lemma) that can be found in the dictionary (Lemming is slow)
 
 _Advance:_
 
