@@ -31,7 +31,7 @@ _Advance:_
 The basic vector embedding is **One Hot Encoding** where 1 stands for the position where the word exists and 0 everywhere else.
 _Ex: ["My ,"Name" ,"is", "Vipul". here vector embedding for "Vipul" will be [0,0,0,1]_
 
-**Note:** Problem with this approach is that for large number of documents it will have more 0's so it will be diffcult to process and get the meaning out of it)
+**Note:** Problem with this approach is that for large number of documents it will have more 0's so it will be diffcult to process and get the meaning out of it
 
 Different Type of Word Embeddings:
 
@@ -56,6 +56,13 @@ NLP software consists of following steps:
    - Deployment
       - Deployment
       - Monitoring
-      - Model Update   
+      - Model Update  
 
+**Text Representation (Vectorization):**
+ - OHE (One Hot Encoding)
+ - BOW (Bag of words)
+ - ngrams
+ - TF-IDF
+ - Custom Features
+ - Word2vec (Embeddings)
 
