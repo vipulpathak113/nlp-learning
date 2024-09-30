@@ -70,6 +70,19 @@ NLP software consists of following steps:
 
 Example:
 
+D1: My Name is Vipul
+
+D2: My Age is 30
+
+Here **corpus** (All words in all documents) is:  My Name is Vipul My Age is 30
+
+Here **vocabulary** (unique words in all documents) is: My Name is Vipul Age 30
+
+So, OHE for *"My"* will be [1,0,0,0,0]
+
+OHE for *"Name"* will be [0,1,0,0,0]
+and vice versa
+
 *Advantages:*
 - Intuative
 - Easy
