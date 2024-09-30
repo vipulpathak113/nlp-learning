@@ -78,16 +78,16 @@ Here **corpus** (All words in all documents) is:  My Name is Vipul My Age is 30
 
 Here **vocabulary** (unique words in all documents) is: My Name is Vipul Age 30
 
-So, OHE for *"My"* will be [1,0,0,0,0]
+So, OHE for **"My"** will be [1,0,0,0,0]
 
-OHE for *"Name"* will be [0,1,0,0,0]
+OHE for **"Name"** will be [0,1,0,0,0]
 and vice versa
 
-*Advantages:*
+**Advantages:**
 - Intuative
 - Easy
 
-*Disadvantages:*
+**Disadvantages:**
 - Sparsity (Will have more 0 in large data)
 - No fixed size (Based on the document the input size can vary)
 - Out of Vocabulary (If new data comes then it will not work well)
