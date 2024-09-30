@@ -66,3 +66,18 @@ NLP software consists of following steps:
  - Custom Features
  - Word2vec (Embeddings)
 
+**OHE (One Hot Encoding):** One-hot encoding (OHE) is a technique used to convert categorical data into numerical vectors.
+
+Example:
+
+*Advantages:*
+- Intuative
+- Easy
+
+*Disadvantages:*
+- Sparsity (Will have more 0 in large data)
+- No fixed size (Based on the document the input size can vary)
+- Out of Vocabulary (If new data comes then it will not work well)
+- No semantic replationship
+
+
