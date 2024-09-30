@@ -38,7 +38,7 @@ Different Type of Word Embeddings:
 - Frequency-based Embedding (Count Vector,TF-IDF,Co-Occurrence)
 - Prediction-based Embedding (CBOW (Continuous Bag of words),Skip – Gram)
 
-
+-----
 ## NLP Pipeline
 
 NLP Pipeline is set of steps to build an end to end NLP Software.
@@ -57,7 +57,7 @@ NLP software consists of following steps:
       - Deployment
       - Monitoring
       - Model Update  
-
+----
 **Text Representation (Vectorization):**
  - OHE (One Hot Encoding)
  - BOW (Bag of words)
@@ -81,7 +81,9 @@ Here **vocabulary** (unique words in all documents) is: My Name is Vipul Age 30
 So, OHE for **"My"** will be [1,0,0,0,0]
 
 OHE for **"Name"** will be [0,1,0,0,0]
-and vice versa
+and vice versa.
+
+**Usage:** In Sentiment Analysis.
 
 **Advantages:**
 - Intuative
@@ -93,4 +95,33 @@ and vice versa
 - Out of Vocabulary (If new data comes then it will not work well)
 - No semantic replationship
 
+---------
+
+**Bag of words:** Bag of words featurization quantifies the frequency of words in text documents 
+
+Example:
+
+D1: My Name is Vipul
+
+D2: My Age is 30
+
+Here **corpus** (All words in all documents) is:  My Name is Vipul My Age is 30
+
+Here **vocabulary** (unique words in all documents) is: My Name is Vipul Age 30
+
+So, BOW for **D1** will be [1,1,1,0,0]
+
+OHE for **D2** will be [1,0,1,1,1]
+
+**Usage:** In text classification
+
+**Advantages:**
+- Intuative
+- Easy
+
+**Disadvantages:**
+- Sparsity (Will have more 0 in large data)
+- No Word Order
+- No Meanings
+- Ignores Context
 
