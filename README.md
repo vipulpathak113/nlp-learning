@@ -17,6 +17,8 @@ _Advance:_
 1. Normalization - like b4,ttyl - to English word before. There are libraries that we can use to do this normalization
 2. Correcting typos - Not easy to implement.
 
+--------
+
 **Feature Extraction:**
 
 1. Corpus: A corpus is a collection of texts that represent a language
