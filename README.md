@@ -128,10 +128,16 @@ OHE for **D2** will be [1,0,1,1,1]
 - No Word Order
 - No Meanings
 - Ignores Context
+
 ------
 
-**Word2vec** is not a single algorithm but a combination of two techniques – CBOW(Continuous bag of words) and Skip-gram model. Both of these are shallow neural networks which map word(s) to the target variable which is also a word(s). Both of these techniques learn weights which act as word vector representations.
+**Word2vec** is not a single algorithm but a combination of two techniques – CBOW(Continuous bag of words) and Skip-gram model. 
+
+Both of these are shallow neural networks which map word(s) to the target variable which is also a word(s).
+
+ Both of these techniques learn weights which act as word vector representations.
 
 **CBOW:** Predict the probability of a word given a context. 
+
 **Skip-gram:** Predict the context given a word.
 
