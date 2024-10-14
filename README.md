@@ -70,7 +70,6 @@ NLP software consists of following steps:
  - Custom Features
  - Word2vec (Embeddings)
 
----
 **OHE (One Hot Encoding):** One-hot encoding (OHE) is a technique used to convert categorical data into numerical vectors.
 
 Example:
