@@ -61,7 +61,7 @@ NLP software consists of following steps:
       - Deployment
       - Monitoring
       - Model Update  
-----
+
 **Text Representation (Vectorization):**
  - OHE (One Hot Encoding)
  - BOW (Bag of words)
